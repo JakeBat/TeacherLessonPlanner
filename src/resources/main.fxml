@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane
+  fx:id="root"
+  fx:controller="main.Controller"
+  xmlns="http://javafx.com/javafx"
+  xmlns:fx="http://javafx.com/fxml" alignment="center">
+
+  <stylesheets>
+    <URL value="@styles.css"/>
+  </stylesheets>
+
+  <GridPane
+  GridPane.columnIndex="0"
+  GridPane.rowIndex="0"
+  border="">
+
+  </GridPane>
+
+
+
+
+</GridPane>
