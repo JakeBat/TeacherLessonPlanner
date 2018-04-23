@@ -2,10 +2,12 @@ package main;
 
 import java.util.ResourceBundle;
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -20,6 +22,7 @@ public class Main extends Application {
     ClassLoader loader = getClass().getClassLoader();
     ResourceBundle bundle = ResourceBundle.getBundle(RESOURCES_BUNDLE_PATH);
     FXMLLoader fxmlLoader = new FXMLLoader(loader.getResource(LAYOUT_PATH), bundle);
+
     Parent root = fxmlLoader.load();
     Controller controller = fxmlLoader.getController();
     Scene scene = new Scene(root);
