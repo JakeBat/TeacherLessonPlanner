@@ -41,7 +41,7 @@
       <!--text="Forward"/>-->
 
 
-  </GridPane>
+  <!--</GridPane>-->
 
   <GridPane
     fx:id="rightWidget"
