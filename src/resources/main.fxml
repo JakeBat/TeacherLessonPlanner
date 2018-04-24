@@ -10,7 +10,8 @@
   fx:id="root"
   fx:controller="main.Controller"
   xmlns="http://javafx.com/javafx"
-  xmlns:fx="http://javafx.com/fxml" alignment="center">
+  xmlns:fx="http://javafx.com/fxml" alignment="center"
+  columnConstraints="">
 
   <stylesheets>
     <URL value="@styles.css"/>
